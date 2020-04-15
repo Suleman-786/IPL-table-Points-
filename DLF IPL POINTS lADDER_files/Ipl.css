@@ -1,0 +1,48 @@
+body{
+font-family:sans-serif;
+  font-size: 12pt;
+  opacity:0.86;
+  background-image:url("images/Ground.jpg");
+background-size: cover;
+background-attachment:fixed;
+}
+table,th,td{
+  border-collapse: collapse;
+ border:1px solid black;
+}
+
+
+th,td{
+  padding: 10px;
+  text-align: center;
+}
+
+th{
+  background-color: darkred;
+  color: mintcream;
+}
+table{
+  width: 80%;
+}
+
+#header{
+background-color: blue;
+color:ghostwhite;
+}
+th{
+  text-align: center;
+}
+td{
+  text-align: center;
+}
+
+tr:nth-child(even){
+  background-color:grey ;
+color: greenyellow;
+
+}
+tr:nth-child(odd){
+  background-color:deeppink ;
+  color: papayawhip;
+
+}
